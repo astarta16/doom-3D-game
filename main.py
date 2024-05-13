@@ -49,8 +49,7 @@ class Game:
         # self.screen.fill('black')
         self.object_renderer.draw()
         self.weapon.draw()
-        # self.map.draw()
-        # self.player.draw()
+       
 
     def check_events(self):
         self.global_trigger = False
